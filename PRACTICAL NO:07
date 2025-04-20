@@ -1,0 +1,52 @@
+Practical 7: Modeling Sequence Diagrams for Online Movie Ticket Booking System.
+
+1. Introduction
+
+In software development, visualizing the interactions between different components of a system is crucial for understanding its behavior and design. UML (Unified Modeling Language) provides various diagrams for this purpose. Among them, sequence diagrams are particularly useful for illustrating the temporal ordering of interactions between objects within a specific scenario or use case. This practical focuses on applying sequence diagrams to model key functionalities of our online movie ticket booking system.   
+
+2. Objective
+
+The objective of this practical is to understand and utilize sequence diagrams to model the dynamic interactions between different entities involved in core processes of the online movie ticket booking system, such as user login, movie browsing, seat selection, and ticket booking. This will help in visualizing the flow of messages and the sequence of operations performed to achieve these functionalities.
+
+3. Sequence Diagram: A Visual Representation of Interactions
+
+A sequence diagram is an interaction diagram that depicts the interactions between objects arranged in a time sequence. It visually represents how different objects in a system collaborate to accomplish a specific task. The diagram shows the objects participating in the interaction and the sequence of messages they exchange over time.   
+
+4. Key Elements of a Sequence Diagram
+
+Objects: These represent instances of classes within the system that participate in the interaction. In our movie ticket booking system, examples include:
+
+User
+WebAppInterface (representing the user's browser or app)
+AuthenticationService
+MovieCatalog
+ShowtimeManager
+SeatSelection
+BookingManager
+PaymentGateway
+Database
+Objects are depicted as rectangles with the object name (and optionally the class name) underlined, e.g., user:User.
+
+Life-line: A vertical dashed line extending downwards from an object. It represents the existence of the object over a period of time during the interaction.
+
+Messages: These represent the communication between objects. A message indicates that one object is invoking an operation or sending data to another object. Messages are shown as arrows between the life-lines of the interacting objects, labeled with the message name and any arguments.   
+
+Activation Box (Execution Occurrence): A thin rectangle drawn on an object's life-line. It indicates the period during which the object is performing an action in response to a received message.
+
+5. Types of Messages
+
+Synchronous Messages: Represent an operation call where the sender waits for a response before continuing. They are depicted with a solid arrowhead. For instance, when the WebAppInterface sends a getMovieDetails(movieID) message to the MovieCatalog, it waits for the movie details to be returned before displaying them to the user.   
+
+Asynchronous Messages: Represent a signal or a call that doesn't require an immediate response. The sender can continue processing after sending the message. They are depicted with an open arrowhead. An example could be the BookingManager sending a sendConfirmationEmail(bookingDetails) message to an EmailService; the booking process can continue without waiting for the email to be sent.
+
+6. Applying Sequence Diagrams to the Online Movie Ticket Booking System
+
+In the practical part of this project, we will create sequence diagrams for several key use cases, such as:
+
+User Login: Illustrating the interaction between the User, WebAppInterface, and AuthenticationService to verify user credentials.
+Browsing Movies: Showing how the User interacts with the WebAppInterface and MovieCatalog to view available movies.
+Selecting Seats and Showtimes: Modeling the communication between the WebAppInterface, ShowtimeManager, and SeatSelection components.
+Booking Tickets: Depicting the flow of messages between the WebAppInterface, BookingManager, and PaymentGateway to finalize a ticket booking.
+By constructing these sequence diagrams, we will gain a clearer understanding of the system's dynamic behavior and the roles of different components in fulfilling user requests. This will also aid in identifying potential design flaws or areas for optimization.
+
+This structured format provides a solid theoretical foundation for the practical application of sequence diagrams in your online movie ticket booking system project. Remember to refer back to these concepts as you create your actual diagrams.
