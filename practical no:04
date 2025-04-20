@@ -1,0 +1,137 @@
+Practical No-04: UML Use Case Diagrams and Capturing Use Case Scenarios
+
+
+---
+
+Aim:
+
+Modeling UML Use Case Diagrams and capturing use case scenarios for the Online Ticket Booking System for Movies.
+
+
+---
+
+Aim of the Experiment:
+
+To understand how different actors and use cases interact in a system, and how to capture the functional requirements using UML Use Case diagrams.
+
+
+---
+
+Introduction:
+
+A use case diagram is a visual representation of the interactions between users (actors) and the system. It helps in understanding the system’s functionality from a user's point of view. For an online ticket booking system, use cases include selecting movies, booking tickets, making payments, and canceling bookings. This diagram plays a vital role in identifying the scope and user interactions with the system.
+
+
+---
+
+Objectives:
+
+After completing this experiment, you will be able to:
+
+Understand the role of actors and use cases from a given problem.
+
+Associate different types of relationships between actors and use cases.
+
+Draw a use case diagram using UML.
+
+Identify and describe primary and secondary actors.
+
+Model use case relationships like include, extend, and generalization.
+
+
+
+---
+
+Theory:
+
+Use Case:
+
+Describes a system's functionality from a user's perspective. Each use case represents a specific goal of the user.
+
+Actor – Primary and Supporting:
+
+Primary Actor: The main user who initiates the use case (e.g., Customer).
+
+Supporting Actor: Entities that assist in the execution (e.g., Payment Gateway, Admin).
+
+
+Graphical Representation – Diagram:
+
+Use cases are represented as ellipses, actors as stick figures, and relationships as lines or arrows. These diagrams visualize how each actor interacts with each function.
+
+Association between Actors and Use Cases:
+
+Lines connecting actors and use cases represent interactions. A user may be associated with multiple use cases.
+
+Use Case Relationships:
+
+Include: A common functionality that is part of many use cases (e.g., “Login” is included in “Book Ticket”).
+
+Extend: A conditional or optional use case (e.g., “Cancel Ticket” may extend “View Booking”).
+
+Generalization: One actor inherits the role of another (e.g., Admin is a specialized type of User).
+
+
+Using Subclasses:
+
+Actors or use cases may be generalized into subclasses. For example, a "User" can have subclasses like "Registered User" and "Guest".
+
+Extend Relationship:
+
+Used when a use case optionally adds steps to another use case.
+
+
+---
+
+Case Study: Online Ticket Booking System for Movies
+
+Actors:
+
+Customer (Primary Actor) – Searches movie, selects seats, books and pays.
+
+Admin (Supporting Actor) – Manages movies, showtimes, seat availability.
+
+Payment Gateway (Supporting Actor) – Processes transactions.
+
+
+Use Cases:
+
+Register/Login
+
+Search Movies
+
+View Show Timings
+
+Select Seats
+
+Book Tickets
+
+Make Payment
+
+Cancel Booking
+
+View Booking History
+
+Manage Movies/Shows (Admin)
+
+
+
+---
+
+Identifying Use Cases:
+
+Use scenarios to identify what actions each actor can perform. Each action is mapped as a use case in the diagram.
+
+
+---
+
+References:
+
+UML Documentation and Modeling Guidelines
+
+Online Resources on UML Diagrams
+
+IEEE Software Engineering Standards
+
+CONCLUSION:-In this experiment, we successfully modeled the functional requirements of an Online Movie Ticket Booking System using UML Use Case diagrams. By identifying primary and supporting actors such as Customers, Admin, and Payment Gateway, we were able to map their interactions with key system functionalities like movie search, ticket booking, and payment processing. We also explored different types of relationships among use cases—include, extend, and generalization—which helped in structuring and reusing common behaviors effectively. This practical enhanced our understanding of how to visually represent user interactions and helped us capture the system's scope from a user-centric perspective, which is essential in designing robust software systems.
+
