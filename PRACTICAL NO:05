@@ -1,0 +1,165 @@
+Practical No-05: Modeling Data Flow Diagram & Control Flow Diagram
+
+Draw Data Flow Diagram | Control Flow Diagram
+
+
+---
+
+Aim of the Experiment:
+
+To analyze and model the flow of data within the Online Ticket Booking System for Movies using Data Flow Diagrams (DFDs) and understand system control through Control Flow Diagrams.
+
+
+---
+
+Introduction:
+
+A Data Flow Diagram (DFD) represents the flow of data in a system. It helps in understanding how data moves between processes, external entities, and data stores. For an online ticket booking system, DFDs can show how information such as movie details, user inputs, and payment data travels throughout the system.
+
+
+---
+
+Objectives:
+
+After completing this experiment, you will be able to:
+
+Identify external entities and core functionalities of the ticket booking system.
+
+Understand and represent the flow of data through the system’s modules.
+
+Use DFD symbols to visualize system operations effectively.
+
+
+
+---
+
+Theory:
+
+Data Flow Diagram (DFD):
+
+DFDs depict how information flows through a system. It is divided into:
+
+Context-Level (Level 0) DFD: Shows the system as a single process with interactions.
+
+Level 1/2 DFD: Breaks down the main process into sub-processes to detail system functionality.
+
+
+
+---
+
+Graphical Notations for DFD:
+
+Process (Circle): Represents system actions (e.g., Book Ticket, Make Payment).
+
+Data Flow (Arrow): Represents movement of data.
+
+Data Store (Open rectangle): Represents where data is stored (e.g., Movie Database).
+
+External Entity (Rectangle): Represents external sources or users (e.g., Customer, Admin, Payment Gateway).
+
+
+
+---
+
+Explanation of Symbols Used in DFD:
+
+Entity: Customer, Admin
+
+Process: Login, Select Movie, Book Ticket, Payment
+
+Data Store: User Data, Movie List, Booking Records
+
+Data Flow: User credentials, Booking details, Payment confirmation
+
+
+
+---
+
+Context Diagram and Leveling DFD:
+
+Context Diagram (Level 0):
+
+Shows interactions between external actors (Customer, Admin) and the system as a whole.
+
+
+Level 1 DFD:
+
+Breaks down “Book Ticket System” into sub-processes:
+
+1. User Login/Register
+
+
+2. Movie Selection
+
+
+3. Show Time & Seat Selection
+
+
+4. Payment Gateway
+
+
+5. Ticket Confirmation
+
+
+
+
+
+---
+
+Case Study: Online Ticket Booking System for Movies
+
+External Entities:
+
+Customer: Searches, selects, and books movie tickets.
+
+Admin: Updates movie details and show timings.
+
+Payment Gateway: Handles online transactions.
+
+
+Processes:
+
+Login/Register
+
+Movie Search
+
+Seat Selection
+
+Booking
+
+Payment
+
+Ticket Generation
+
+
+Data Stores:
+
+Movie Database
+
+User Database
+
+Booking Records
+
+
+
+
+---
+
+Simulation:
+
+The DFD can be simulated using diagram tools like Draw.io, Lucidchart, or manual sketching. It helps visualize the real-time flow of data between users and the system’s modules.
+
+
+---
+
+References:
+
+UML and DFD Modeling Guidelines
+
+Software Engineering by Pressman
+
+Online Documentation for DFD Tools
+
+CONCLUSION:-In this experiment, we successfully modeled the Data Flow Diagram (DFD) and Control Flow Diagram (CFD) for the Online Movie Ticket Booking System. By identifying key external entities such as the Customer, Admin, and Payment Gateway, along with core processes like Login, Movie Selection, Seat Booking, and Payment, we were able to depict how data moves through the system in a structured manner. The Context-Level DFD (Level 0) provided an overview of the system as a whole, while the Level 1 DFD broke it down into detailed subprocesses, giving deeper insights into internal data interactions.
+
+This practical reinforced the importance of DFDs in understanding and analyzing the flow of information and data transformations within a system. The diagrams serve as a powerful tool in system design, ensuring clarity, consistency, and effective communication between developers and stakeholders.
