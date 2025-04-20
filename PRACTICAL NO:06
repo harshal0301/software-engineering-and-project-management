@@ -1,0 +1,133 @@
+Practical No-06
+
+Modeling UML Class Diagrams
+Structural and Behavioral Aspects | Class Diagram | Elements in Class Diagram | Class | Relationships | Draw Class Diagram
+
+
+---
+
+Aim of the Experiment:
+
+To model and represent the class structure and relationships in the Online Ticket Booking System for Movies using UML class diagrams.
+
+
+---
+
+Introduction:
+
+Class diagrams are an essential part of object-oriented analysis and design. They help visualize the system's structure by showing the system’s classes, their attributes, methods, and relationships. In the case of an online movie ticket booking system, classes such as User, Movie, Booking, Payment, and Admin can be defined and interconnected based on their roles in the system.
+
+
+---
+
+Objectives:
+
+After completing this experiment, you will be able to:
+
+Graphically represent classes and associations among them.
+
+Understand and model the logical structure of the system.
+
+Identify the relationships such as association, aggregation, inheritance, and composition.
+
+
+
+---
+
+Theory:
+
+Structural and Behavioral Aspects:
+
+Structural Aspect focuses on the static part of the system (e.g., classes and relationships).
+
+Behavioral Aspect focuses on dynamic behavior (e.g., interactions between objects during runtime).
+
+
+
+---
+
+Class Diagram:
+
+A UML class diagram for the movie ticket booking system may consist of the following classes:
+
+User: Attributes – userId, name, email; Methods – login(), register()
+
+Movie: Attributes – movieId, title, genre, duration; Methods – viewDetails()
+
+Showtime: Attributes – showId, time, date, screenNumber
+
+Booking: Attributes – bookingId, seatNo, status; Methods – confirmBooking()
+
+Payment: Attributes – paymentId, amount, method; Methods – processPayment()
+
+Admin: Attributes – adminId, name; Methods – addMovie(), updateShowtime()
+
+
+
+---
+
+Elements in Class Diagram:
+
+Class Name
+
+Attributes
+
+Operations (Methods)
+
+Visibility (public, private, protected)
+
+Relationships among classes
+
+
+
+---
+
+Relationships:
+
+Association: User and Booking (1-to-many)
+
+Aggregation: Movie contains multiple Showtimes
+
+Composition: Booking must include Payment
+
+Inheritance: Admin inherits from User class
+
+
+
+---
+
+Composition:
+
+In the system, the Booking class is composed of Payment – i.e., a booking cannot exist without a payment being made. This reflects a strong lifecycle dependency between the classes.
+
+
+---
+
+Case Study: Online Ticket Booking System for Movies
+
+The system includes:
+
+Users who browse movies and make bookings.
+
+Movies with specific showtimes and seat availability.
+
+Admin who updates schedules and movie details.
+
+Payment module that ensures secure transactions.
+Class diagrams help in clearly defining how these modules interact.
+
+
+
+---
+
+References:
+
+Object-Oriented Modeling and Design by James Rumbaugh
+
+Unified Modeling Language User Guide by Grady Booch
+
+Online UML tools documentation like Lucidchart, Creately
+
+CONCLUSION:-In this experiment, we effectively modeled the structural design of the Online Movie Ticket Booking System using UML Class Diagrams. By identifying key system classes such as User, Movie, Booking, Payment, Showtime, and Admin, we demonstrated how each class encapsulates specific attributes and behaviors relevant to the system. We also explored and implemented various types of relationships, including association, aggregation, composition, and inheritance, to represent how classes interact and depend on each other.
+
+This practical helped in understanding the structural aspect of software design, emphasizing the importance of clearly defining class responsibilities and interconnections. UML class diagrams not only provide a blueprint for developers but also serve as an effective communication tool for both technical and non-technical stakeholders during system development.
