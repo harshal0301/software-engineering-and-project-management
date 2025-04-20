@@ -1,0 +1,32 @@
+Practical-08: Designing Test Suites for Online Movie Ticket Booking System
+
+Designing Test Suites: Planning and organizing tests to ensure the quality of our movie ticket booking system.
+
+Software Testing: Evaluating the system to find defects and ensure it meets requirements. Crucial for functionality, reliability, usability, and security.
+
+Verification, Validation:
+
+Verification: Checking if we built the system right (conformance to specifications).
+Validation: Checking if we built the right system (meets user needs).
+Standards for Software Test Documentation: Important for clear communication and tracking. Includes Test Plans, Test Cases, Test Suites, Test Logs, and Defect Reports.
+
+Testing Frameworks: Tools and guidelines that structure our testing process, improving efficiency and organization (e.g., unittest, Selenium).
+
+Need for Software Testing: Essential to guarantee functionality, reliability, performance, security, and usability, ultimately leading to user satisfaction and reduced costs.
+
+Test Cases and Test Suite:
+
+Test Case: A specific test with inputs, steps, and expected results (e.g., testing valid user login).
+Test Suite: A collection of related test cases (e.g., a suite for all login-related tests).
+Types of Software Testing:
+
+Unit Testing: Testing individual parts of the system in isolation (e.g., testing the user registration function).
+Integration Testing: Testing how different parts of the system work together (e.g., testing how login connects to user profiles).
+System Testing: Testing the entire system as a complete product (e.g., testing the full booking process)
+
+CONCLUSION:-In this practical, we explored the importance and methodology of designing effective test suites for the Online Movie Ticket Booking System. We understood how software testing ensures that the system meets both functional and non-functional requirements, by identifying and addressing defects early in the development process. Key concepts such as verification and validation helped us distinguish between building the system correctly and building the correct system.
+
+We also examined different testing levels—unit, integration, and system testing—and how they collectively contribute to a robust quality assurance process. By designing structured test cases and organizing them into test suites, we ensured comprehensive coverage of critical functionalities such as login, booking, and payment. Emphasizing standardized documentation and using testing frameworks allows for better test management, traceability, and communication across the team.
+
+This practical has enhanced our understanding of how systematic testing contributes to the reliability, usability, and success of software systems in real-world applications.
+
